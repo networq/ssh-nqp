@@ -1,0 +1,11 @@
+<h3>Public Key</h3>
+{% if node['networq:ssh:keyPair']['publicKey'] %}
+<code style="white-space: wrap;">{{ node['networq:ssh:keyPair']['publicKey'] }}</code>
+{% else %}N/A
+{% endif %}
+
+<h3>Private Key</h3>
+{% if node['networq:ssh:keyPair']['privateKey'] %}
+<code style="white-space: wrap;">{{ node['networq:ssh:keyPair']['privateKey'] }}</code>
+{% else %}N/A
+{% endif %}
