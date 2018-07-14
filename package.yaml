@@ -7,6 +7,6 @@ dependencies:
 
 widgets:
   sshKeyPairTab:
-    type: networq:ssh:keyPair
+    type: networq:ssh:key-pair
     hook: tabs
     label: SSH

@@ -1,9 +1,0 @@
-name: publicKey
-labelPlural: Public keys
-labelSingular: Public key
-
-fields:
-  publicKey:
-    type: string
-  privateKey:
-    type: string
